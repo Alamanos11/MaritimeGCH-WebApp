@@ -12,7 +12,7 @@ import numpy as np
 from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpStatus
 
 # Set the working directory
-working_directory = 'D:/MaritimeGCH/Greece'
+working_directory = 'D:/MaritimeGCH/Greece/webapp'
 os.chdir(working_directory)
 
 # Read input data from CSV files
