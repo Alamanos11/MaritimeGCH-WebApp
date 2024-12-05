@@ -5,15 +5,14 @@ Created on December 2024
 """
 
 import streamlit as st
-import os
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 from pulp import LpProblem, LpMinimize, LpVariable, lpSum, LpStatus
 
 # Set the working directory
-working_directory = 'D:/MaritimeGCH/Greece/webapp'
-os.chdir(working_directory)
+# working_directory = 'D:/MaritimeGCH/Greece/webapp'
+# os.chdir(working_directory)
 
 # Read input data from CSV files
 def getParameters(demand_file, op_cost_file, emissions_factor_file, fuel_cost_file, co2_cap_file, ets_price_file, fuel_consumption_file):
