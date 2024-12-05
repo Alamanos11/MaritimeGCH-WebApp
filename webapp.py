@@ -262,6 +262,8 @@ The Carbon Intensity Indicator (CII) must comply with the EU regulation threshol
 
 **DOI:** [10.13140/RG.2.2.35892.87680](https://doi.org/10.13140/RG.2.2.35892.87680)  
 **Available at:** [GitHub Repository](https://github.com/Alamanos11/MaritimeGCH)
+**References:** Alamanos, A., Nisiforou, O., Garcia, J.A., Deranian, C., Papadaki, L. & Koundouri, P. (2024). Integrated fleet optimization under techno-economic shipping and environmental constraints: the MaritimeGCH model. DOI:  http://dx.doi.org/10.13140/RG.2.2.35892.87680. Available at: https://github.com/Alamanos11/MaritimeGCH.
+                Alamanos, A. (2025). The online free web app of the MaritimeGCH model. Available at: https://maritimegch-webapp-ihivvudpv9bo6lgzwqmuqc.streamlit.app/
 """)
 
 st.sidebar.header("Select a scenario based on the following input parameters. Case study: Fleet under Greek flag!")
