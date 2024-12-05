@@ -243,12 +243,12 @@ investment and operational costs, fuel costs, CO2 emissions and associated EU ta
 and their age and lifetimes, fuel consumption rates, and fuel availability. MaritimeGCH optimizes new ship acquisitions, existing fleet management, fuel consumption, 
 and CO2 emissions while adhering to operational and environmental constraints, including the recent ETS and Carbon Intensity Indicator (CII) compliance indicator.  
 
-** Ship types:** Containers (C), Tankers (T), Bulk (B), Cargo (C), Other (O).
-** Fuels:** Oil, RefPO, LNG, LPG, MeOH, NH3, H2
+* Ship types: Containers (C), Tankers (T), Bulk (B), Cargo (C), Other (O).
+* Fuels: Oil, RefPO, LNG, LPG, MeOH, NH3, H2
 
-** Objective: ** Minimize the total cost over the planning horizon (2020-2050)
+* Objective: Minimize the total cost over the planning horizon (2020-2050)
 
-** Constraints:** The total stock of ships each year must be sufficient to meet the demand for shipping services
+* Constraints: The total stock of ships each year must be sufficient to meet the demand for shipping services
 
 The number of new ships built each year is limited by the production capacity
 
@@ -262,8 +262,12 @@ The Carbon Intensity Indicator (CII) must comply with the EU regulation threshol
 
 **DOI:** [10.13140/RG.2.2.35892.87680](https://doi.org/10.13140/RG.2.2.35892.87680)  
 **Available at:** [GitHub Repository](https://github.com/Alamanos11/MaritimeGCH)
-**References:** Alamanos, A., Nisiforou, O., Garcia, J.A., Deranian, C., Papadaki, L. & Koundouri, P. (2024). Integrated fleet optimization under techno-economic shipping and environmental constraints: the MaritimeGCH model. DOI:  http://dx.doi.org/10.13140/RG.2.2.35892.87680. Available at: https://github.com/Alamanos11/MaritimeGCH.
-                Alamanos, A. (2025). The online free web app of the MaritimeGCH model.
+
+**References:** 
+
+Alamanos, A., Nisiforou, O., Garcia, J.A., Deranian, C., Papadaki, L. & Koundouri, P. (2024). Integrated fleet optimization under techno-economic shipping and environmental constraints: the MaritimeGCH model. DOI:  http://dx.doi.org/10.13140/RG.2.2.35892.87680.
+                
+Alamanos, A. (2025). The online free web app of the MaritimeGCH model.
 """)
 
 st.sidebar.header("Select a scenario based on the following input parameters. Case study: Fleet under Greek flag!")
